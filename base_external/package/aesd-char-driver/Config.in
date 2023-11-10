@@ -1,0 +1,5 @@
+config BR2_PACKAGE_AESD_CHAR_DRIVER
+	bool "aesd-char-driver"
+	help
+	  Supports building and installing the AESD character driver
+	  components into the root filesystem in the kernel image.
